@@ -1,0 +1,96 @@
+/* Container for the chat page */
+.chat-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat header styling */
+.chat-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chat-room-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Container for chat messages */
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual chat message styling */
+.chat-message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    max-width: 70%;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+.my-message {
+    align-self: flex-end;
+    background-color: #dcf8c6;
+    color: #000;
+}
+
+.other-message {
+    align-self: flex-start;
+    background-color: #eee;
+    color: #000;
+}
+
+.chat-message strong {
+    margin-right: 5px;
+}
+
+/* Chat form styling */
+.chat-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Chat input styling */
+.chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Chat button styling */
+.chat-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.chat-button:hover {
+    background-color: #0056b3;
+}

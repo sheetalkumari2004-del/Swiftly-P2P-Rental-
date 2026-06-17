@@ -1,0 +1,8 @@
+
+node_modules/
+venv/
+Swiftly_oauth_google.json
+.env
+db.sqlite3
+__pycache__/
+*.pyc
